@@ -1,0 +1,48 @@
+[
+  {
+    "id": "TC1",
+    "title": "Login successfully with correct credentials",
+    "username": "Admin",
+    "password": "admin123",
+    "flag": "Success"
+  },
+  {
+    "id": "TC2",
+    "title": "Login successfully with uppercase Username",
+    "username": "ADMIN",
+    "password": "admin123",
+    "flag": "Success"
+  },
+  {
+    "id": "TC3",
+    "title": "Login fail with uppercase Password",
+    "username": "Admin",
+    "password": "ADMIN123",
+    "flag": "Failed",
+    "errorMessage": "Invalid credentials"
+  },
+  {
+    "id": "TC4",
+    "title": "Verify error message when leaving Username empty",
+    "username": "",
+    "password": "ADMIN123",
+    "flag": "Failed",
+    "errorMessage": "Required"
+  },
+  {
+    "id": "TC5",
+    "title": "Login fail with invalid / wrong Username",
+    "username": "hehe",
+    "password": "admin123",
+    "flag": "Failed",
+    "errorMessage": "Invalid credentials"
+  },
+  {
+    "id": "TC6",
+    "title": "Login fail with invalid / wrong Password",
+    "username": "Admin",
+    "password": "admin1234!",
+    "flag": "Failed",
+    "errorMessage": "Invalid credentials"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "TC1",
+    "title": "Search with existing user",
+    "Username": "Admin",
+    "flag": "Found Successfully",
+    "expectedResult": "Admin"
+  },
+  {
+    "id": "TC2",
+    "title": "Search with non-existing user",
+    "Username": "Adminnn",
+    "flag": "Not Found",
+    "expectedResult": "No Records Found"
+  }
+]
