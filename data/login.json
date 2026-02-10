@@ -25,7 +25,7 @@
     "id": "TC4",
     "title": "Verify error message when leaving Username empty",
     "username": "",
-    "password": "ADMIN123",
+    "password": "admin123",
     "flag": "Failed",
     "errorMessage": "Required"
   },

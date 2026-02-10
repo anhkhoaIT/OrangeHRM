@@ -20,11 +20,9 @@ export class AuthPage {
 
   //Login
   async login(username: string, password: string) {
-    await test.step("Login", async () => {
-      await this.locators.usernameInput.fill(username);
-      await this.locators.passwordInput.fill(password);
-      await this.locators.loginBtn.click();
-    });
+    await this.locators.usernameInput.fill(username);
+    await this.locators.passwordInput.fill(password);
+    await this.locators.loginBtn.click();
   }
 
   // Require error message

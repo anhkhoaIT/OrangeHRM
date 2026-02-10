@@ -1,5 +1,4 @@
 import { Locator, Page, expect } from "@playwright/test";
-import { AuthPage } from "./AuthPage";
 import { adminLocator } from "../utils/locator/admin";
 
 export class AdminPage {

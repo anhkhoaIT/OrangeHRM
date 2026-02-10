@@ -1,0 +1,9 @@
+{
+  "default": {
+    "requireModule": ["ts-node/register"],
+    "require": ["step-definitions/*.ts"],
+    "paths": ["features/*.feature"],
+    "dryRun": false,
+    "format": ["progress-bar", "html:cucumber-report.html"]
+  }
+}
